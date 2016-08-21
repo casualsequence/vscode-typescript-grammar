@@ -1,0 +1,44 @@
+{
+  "name": "vscode-typescript-grammar",
+  "displayName": "Casual Sequence TypeScript Grammar",
+  "description": "Custom TypeScript Grammar for VS Code",
+  "version": "0.0.1",
+  "publisher": "Casual Sequence",
+  "author": {
+    "email": "hello@casualsequence.com",
+    "name": "Casual Sequence",
+    "url": "http://www.casualsequence.com"
+  },
+  "engines": {
+    "vscode": "*"
+  },
+  "categories": [
+    "Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "language": "ts",
+        "scopeName": "source.ts",
+        "path": "./syntaxes/typescript.json"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "gulp jshint eslint",
+    "nsp": "gulp nsp",
+    "update-grammar": "gulp update-grammar"
+  },
+  "devDependencies": {
+    "eslint": "^3.3.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^3.0.1",
+    "gulp-jshint": "^2.0.1",
+    "gulp-nsp": "^2.4.2",
+    "gulp-yaml": "^1.0.1",
+    "js-yaml": "^3.6.1",
+    "jshint": "^2.9.3",
+    "request": "^2.74.0",
+    "require-dir": "^0.3.0"
+  }
+}

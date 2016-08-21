@@ -1,2 +1,3 @@
 # vscode-typescript-grammar
-TypeScript Grammar for VS Code
+
+Custom TypeScript Grammar for VS Code - Casual Sequence Style
