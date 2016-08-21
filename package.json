@@ -18,7 +18,7 @@
   "contributes": {
     "grammars": [
       {
-        "language": "ts",
+        "language": "typescript",
         "scopeName": "source.ts",
         "path": "./syntaxes/typescript.json"
       }
