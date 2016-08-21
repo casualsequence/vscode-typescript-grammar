@@ -27,11 +27,13 @@
   "scripts": {
     "lint": "gulp jshint eslint",
     "nsp": "gulp nsp",
-    "update-grammar": "gulp update-grammar"
+    "update-grammar": "gulp update-grammar",
+    "update-local-grammar": "gulp update-local-grammar"
   },
   "devDependencies": {
     "eslint": "^3.3.1",
     "gulp": "^3.9.1",
+    "gulp-download": "0.0.1",
     "gulp-eslint": "^3.0.1",
     "gulp-jshint": "^2.0.1",
     "gulp-nsp": "^2.4.2",
